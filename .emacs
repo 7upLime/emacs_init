@@ -24,13 +24,6 @@
    (quote
     (ac-html cobol-mode nose treemacs flymake cyberpunk-2019-theme minimal-theme)))
  '(send-mail-function (quote mailclient-send-it)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(cursor ((t (:background "color-47"))))
- '(shadow ((t (:foreground "grey70")))))
 
 ;;moves between windows
 ;;
