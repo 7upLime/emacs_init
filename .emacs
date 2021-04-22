@@ -8,3 +8,9 @@
 
 ;; highlight current line
 (global-hl-line-mode)
+
+;; set "region" face || highlightment background color..
+(set-face-attribute 'region nil :background "#df0")
+
+;; char size
+(set-face-attribute 'default nil :height 95)
