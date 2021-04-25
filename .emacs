@@ -2,7 +2,7 @@
 ;; line number
 (global-linum-mode)
 
-;;moves between windows
+;;move between windows (SHIFT+arrow)
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
 
@@ -14,3 +14,6 @@
 
 ;; char size
 (set-face-attribute 'default nil :height 95)
+
+;; Stop emacs from creating backups
+(setq make-backup-files nil)
